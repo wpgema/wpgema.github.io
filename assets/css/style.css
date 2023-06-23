@@ -1,0 +1,333 @@
+header{
+    position: relative !important;
+    background-color: rgba(10,10,10);
+    list-style: none;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #FFC93C;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .links{
+    gap: 2rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    color: #FFC93C;
+}
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.dropdowns_menu{
+    display: none;
+    position: absolute;
+    right: 1rem !important;
+    top: 60px;
+    width: 100%;
+    height: 0;
+    background-color: rgba(255,255,255,.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdowns_menu.open{
+    height: 280px;
+}
+
+.dropdowns_menu li{
+    width: 100%;
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.dropdowns_menu li a{
+    font-weight: 400;
+}
+
+.dropdowns_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron#jumbotron{
+    background-image: linear-gradient(to bottom, rgba(10,10,10,1), rgba(10,10,10,.7));
+    width: 100%;
+}
+
+.jumbotron#jumbotron .row {
+    margin-bottom: 0 !important;
+}
+
+.jumbotron#jumbotron .col-4{
+    margin-top: 30vh;
+}
+
+.jumbotron#jumbotron .col-4 h5, .jumbotron#jumbotron .col-4 p{
+    margin-left: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.jumbotron#jumbotron .col-4 h5{
+    font-size: 1.8rem;
+}
+
+.jumbotron#jumbotron .col-4 p span{
+    color: #FFC93C;
+}
+
+.jumbotron#jumbotron .col-4 p{
+    font-size: 1.2rem;
+}
+
+a.btn{
+    background-color: #FFC93C;
+}
+
+.about#about{
+    background-image: linear-gradient(to top, rgba(10,10,10,1), rgba(10,10,10,.7));
+    
+}
+
+.about#about img{
+    width: 60%;
+    border-radius: 5px;
+    margin-left: 12vw;
+}
+
+.about#about p{
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services{
+    background-image: linear-gradient(to bottom, rgba(10,10,10,1), rgba(10,10,10,1));
+}
+
+.services .col-md-5 h5, .services .col-md-5 p, .services .col-md-5 ul li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.services .col-md-5.list{
+    border-right: 2px solid white;
+}
+
+.services .col-md-5 h5{
+    font-size: 1.6rem;
+}
+
+.services .col-md-5 p, .services .col-md-5 ul li{
+    list-style: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.services .row .col-md-5 ul i{
+    font-size: .5rem;
+}
+
+.gallery#gallery{
+    background-image: linear-gradient(to bottom, rgba(10,10,10,1), rgba(10,10,10,.7));
+}
+
+.gallery#gallery .col-lg-2 img{
+    height: 200px;
+    transition: .3s;
+}
+
+.gallery#gallery h5{
+    font-size: 1.6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+}
+
+.contact#contact{
+    background-image: linear-gradient(to top, rgba(10,10,10,1), rgba(10,10,10,.7));
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact#contact .row{
+    border-radius: 20px;
+    background-color: rgba(0,0,0,.1);
+    padding-bottom: 30px;
+}
+
+.contact#contact i{
+    font-size: 3.5rem;
+}
+
+.etc#etc{
+    background: rgba(10,10,10,1);
+}
+
+@media (max-width: 766px){
+    header{
+        border: none;
+    }
+
+    .navbar{
+        padding: 0 2rem;
+    }
+    
+    .navbar .links,
+    .navbar .action_btn{
+        display: none !important;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+        color: #FFC93C;
+        font-weight: bold;
+    }
+
+    .dropdowns_menu{
+        display: block;
+    }
+
+    .jumbotron#jumbotron{
+        padding-top: 3vh;
+    }
+
+    .jumbotron#jumbotron .col-4{
+        margin-top: 5vh;
+    }
+
+    .jumbotron#jumbotron .col-4 h5, .jumbotron#jumbotron .col-4 p{
+        margin-left: 0;
+    }
+
+    .jumbotron#jumbotron .col-4 h5{
+        font-size: 1.6rem;
+    }
+
+    .jumbotron#jumbotron .col-4 p{
+        font-size: 1rem;
+    }
+
+    .jumbotron#jumbotron .col-8 img{
+        height: 55vh;
+    }
+
+    .about#about img{
+        width: 100%;
+        height: 35vh;
+        margin-left: 0;
+    }
+
+    .about#about .desktop, .gallery#gallery .desktop {
+        display: none !important;
+        
+    }
+
+    .services .col-md-5.list{
+        border-right: none;
+    }
+
+    .gallery#gallery .col-lg-2 {
+        width: 45%;
+    }
+
+    .gallery#gallery .col-lg-4 h5{
+        text-align: left;
+    }
+
+    .contact#contact i{
+        font-size: 2.5rem;
+    }
+
+    .contact#contact h6, .contact#contact p, .contact#contact a{
+        font-size: 1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+@media (min-width:768px) and (max-width: 992px){
+    header{
+        border: none;
+    }
+
+    .navbar{
+        padding: 0 2rem;
+    }
+    .navbar .links,
+    .navbar .action_btn{
+        display: none !important;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+        color: #FFC93C;
+        font-weight: bold;
+    }
+
+    .dropdowns_menu{
+        display: block;
+    }
+    
+    .jumbotron#jumbotron .col-4{
+        margin-top: 15vh;
+    }
+
+    .jumbotron#jumbotron .col-8 img{
+        height: 50vh;
+    }
+
+    .about#about img{
+        width: 100%;
+        height: 50vh;
+        margin-left: 0;
+    }
+
+    .gallery#gallery .col-lg-4 h5{
+        text-align: left;
+    }
+
+    .gallery#gallery .col-lg-2{
+        width: 30%;
+    }
+
+    .gallery#gallery .col-lg-2 img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .gallery#gallery .tablet{
+        display: none
+    }
+}
