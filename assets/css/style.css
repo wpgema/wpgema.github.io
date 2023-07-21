@@ -365,12 +365,12 @@ header h1.fas{
     }
 
     .services .container, .skill .container{
-        width: 90%;
+        width: 80%;
         grid-template-columns: 1fr;
     }
 
     .contact .form{
-        width: 90%;
+        width: 80%;
     }
 }
 
