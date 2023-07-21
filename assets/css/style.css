@@ -346,7 +346,7 @@ header h1.fas{
         padding-top: 3rem;
         padding-bottom: 1rem;
         background-size: cover;
-        background-position: center;
+        background-position: 200px 0;
     }
 
     .about .row{
