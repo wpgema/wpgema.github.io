@@ -1,8 +1,6 @@
-const toggleBtn = document.querySelector('.toggle_btn');
-const toggleBtnIcon = document.querySelector('.toggle_btn');
-const dropDownMenu = document.querySelector('.dropdowns_menu');
+const toggleTombol = document.getElementById('nav-togle');
+const navToggle = document.getElementById('nav');
 
-toggleBtn.onclick = function (){
-    dropDownMenu.classList.toggle('open');
-    const isOpen = dropDownMenu.classList.contains('open');
-}
+toggleTombol.addEventListener("click", function(){
+    navToggle.classList.toggle("nav-togle");
+})
