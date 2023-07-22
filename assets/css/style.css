@@ -76,7 +76,7 @@ header h1.fas{
 .home::before{
     content: '';
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     background-image: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.2));
 }
@@ -225,6 +225,7 @@ header h1.fas{
 .contact{
     background-color: #D3D3D3;
     padding-bottom: 3rem;
+    text-transform: lowercase;
 }
 
 .contact h1{
@@ -253,7 +254,8 @@ header h1.fas{
     border: 1px solid #D3D3D3;
     border-radius: 5px;
     box-shadow: 0 0 .3rem rgba(133, 132, 132,.1);
-    padding: .5rem 2rem
+    padding: .5rem 2rem;
+    text-transform: none;
 }
 
 .contact .form textarea{
@@ -381,6 +383,15 @@ header h1.fas{
 }
 
 @media (min-width: 557px) and (max-width: 991px){
+    header{
+        padding: 2rem;
+    }
+
+    header h1{
+        position: relative;
+        z-index: 1;
+    }
+
     header h1.fas{
         display: block;
         font-size: 3rem;
@@ -414,9 +425,14 @@ header h1.fas{
     }
 
     .home{
-        height: 80vh;
+        height: 100vh;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .home::before{
+        height: 100vh;
     }
     
     .about{
