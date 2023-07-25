@@ -213,6 +213,11 @@ header h1.fas{
     border-radius: 50%;
 }
 
+.skill .col:nth-child(1) img{
+    
+    border: 1px solid rgb(238, 96, 80);
+}
+
 .skill .container .col{
     text-align: center;
 }
@@ -351,7 +356,7 @@ header h1.fas{
     .home h1{
         font-size: 2.5rem;
         font-weight: 400;
-        padding: 2rem;
+        padding: 0 2rem;
     }
 
     .about{
@@ -454,6 +459,18 @@ header h1.fas{
 
     .home::before{
         height: 100vh;
+    }
+
+    .home{
+        background-position: -250px;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .home h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+        padding: 0 2rem;
     }
     
     .about{
