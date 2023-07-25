@@ -349,8 +349,9 @@ header h1.fas{
     }
 
     .home h1{
-        font-size: 3.5rem;
-        font-weight: 500;
+        font-size: 2.5rem;
+        font-weight: 400;
+        padding: 2rem;
     }
 
     .about{
@@ -371,6 +372,10 @@ header h1.fas{
     .about .row .col-dsk{
         padding: 2rem;
         height: fit-content;
+    }
+
+    .about .row .col-dsk p{
+        font-size: 1.5rem;
     }
 
     .services .container, .skill .container{
