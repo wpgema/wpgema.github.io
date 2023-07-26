@@ -19,6 +19,10 @@ body{
     overflow-x: hidden;
 }
 
+.margin-top{
+    margin-top: 8rem;
+}
+
 header{
     position: absolute;
     right: 0;
@@ -128,7 +132,8 @@ header h1.fas{
 }
 
 .about h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .about p{
@@ -152,7 +157,8 @@ header h1.fas{
 .services h2{
     padding: 3rem 0;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .services .container{
@@ -196,7 +202,8 @@ header h1.fas{
 
 .skill h1{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 500;
     margin: 3rem;
 }
 
@@ -222,8 +229,48 @@ header h1.fas{
     text-align: center;
 }
 
+.works{
+    padding: 0 10rem 3rem;
+}
+
+.works .container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.works h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 3rem 0;
+}
+
+.works .container .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.works .container .row .card{
+    width: 400px;
+    height: fit-content;
+    padding: 2rem;
+    margin: 0 3rem;
+    border-radius: 4px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .2);
+}
+
+.works .container .row .card h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.works .container .row .card img{
+    width: 100%;
+}
+
 .contact{
     background-color: #D3D3D3;
+    padding-top: 3rem;
     padding-bottom: 3rem;
     text-transform: lowercase;
 }
@@ -231,7 +278,8 @@ header h1.fas{
 .contact h1{
     padding: 3rem 0;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .contact .form{
@@ -330,7 +378,7 @@ header h1.fas{
     }
 
     header .nav-togle{
-        padding-top: 3rem;
+        padding-top: 4rem;
         top: 0;
         transition: .3s ease-in-out;
     }
@@ -351,6 +399,10 @@ header h1.fas{
         background-position: -250px;
         background-size: cover;
         text-align: center;
+    }
+
+    .home h2{
+        font-size: 2rem;
     }
 
     .home h1{
@@ -401,6 +453,24 @@ header h1.fas{
 
     .skill .container .col h2{
         padding-left: 2rem;
+    }
+
+    .works{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .works .container{
+        width: 80%;
+    }
+
+    .works .container .row{
+        flex-direction: column;
+    }
+
+    .works .container .row .card{
+        width: 100%;
+        margin: 0 auto 2rem;
     }
 
     .contact .form{
@@ -462,9 +532,12 @@ header h1.fas{
     }
 
     .home{
-        background-position: -250px;
         background-size: cover;
         text-align: center;
+    }
+
+    .home h2{
+        font-size: 2rem;
     }
 
     .home h1{
@@ -497,7 +570,7 @@ header h1.fas{
     }
     
     .about .row .col-dsk{
-        height: 300px;
+        height: fit-content;
         padding-left: 1rem;
         padding-top: 0;
     }
@@ -507,7 +580,7 @@ header h1.fas{
     }
     
     .about p, .services .col p, .skill .col p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     
     .about ul li{
@@ -516,10 +589,15 @@ header h1.fas{
         color: white;
         margin-top: 1rem;
         padding: .5rem .5rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
-    .services .container, .skill .container, .contact .form{
+    .works{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .services .container, .skill .container, .works .container, .contact .form{
         width: 90%;
     }
 }
