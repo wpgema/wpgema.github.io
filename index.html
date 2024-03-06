@@ -3,152 +3,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mgemamaulana04</title>
+    <title>MFrame</title>
 
-    <!-- my-css -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- my-font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- my font-google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="header" id="header">
-        <h1><i class="fas fa-desktop"></i> MAULANA</h1>
+    <header>
+        <h1>MFrame</h1>
 
-        <h1 class="fas fa-bars" id="nav-togle"></h1>
+        <h4 ><i class="bi bi-list" id="tombol"></i></h4>
 
-        <nav id="nav">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#skill">SKILL</a></li>
-                <li><a href="#works">WORKS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
+        <nav id="nav" class="nav">
+            <a href="#hme" class="nav_link">home</a>
+            <a href="#about" class="nav_link">about</a>
+            <a href="#services" class="nav_link">services</a>
+            <a href="#technology" class="nav_link">Technology</a>
+            <a href="#provide" class="nav_link">Provide</a>
+            <a href="#faq" class="nav_link">FAQ</a>
+            <a href="#contact" class="nav_link">contact</a>
         </nav>
     </header>
-
+    
     <main id="main">
-        <div class="home" id="home">
-            <h2 id="tagline">Hello</h2>
-            <h1>I am front end web developer</h1>
+        <div class="hero" id="home">
+            <div class="row">
+                <div class="col-1">
+                    <h1>we create a website <span>for your business</span></h1>
+                    <p>Welcome to MFrame, a service focused on developing web-based user interfaces. We are dedicated to providing our customers with high-quality web-based interface solutions. With professional values ​​and transparency, we are committed to providing the best service in an effort to achieve customer satisfaction. We are happy to work with you and are ready to help meet your business needs. Thank you for knowing MFrame.</p>
+                    <a href="" class="tombol">get started</a>
+                </div>
+                <div class="col-2">
+                    <img src="assets/img/Capture.PNG" alt="">
+                </div>
+            </div>
         </div>
 
         <div class="about" id="about">
-            <div class="row">
-                <div class="col-img">
-                    <img src="assets/img/IMG_20240306_064156.jpg" alt="">
-                </div>
-                <div class="col-dsk">
-                    <h2>About us.</h2>
-                    <p>Menyulam inspirasi dalam desain web: menciptakan pengalaman pengguna yang luar biasa.</p>
-                    <p>Selamat datang! Saya adalah seorang <b>Web UI Designer</b> dengan kecintaan yang mendalam terhadap seni digital dan berbagai pengalaman interaktif yang dapat diciptakan melalui desain web. Saya memiliki visi untuk menyajikan dunia daring yang indah, efisien, dan mengesankan bagi para pengguna.</p>
-                    <ul>
-                        <li>web design</li>
-                        <li>responsive Web design</li>
-                        <li>update Web design</li>
-                    </ul>
-                </div>
+            <h1>Get to know us further</h1>
+            <div class="container">
+                <ul>
+                    <li>
+                        <span><i class="bi bi-person"></i> Ceo Company</span>
+                        <h4>M. Gema Maulana</h4>
+                        <p>As a CEO, I have a clear vision to bring innovation and sustainable growth to my service. With inspiring leadership, I push this services to reach their full potential. Together, we create solutions that are relevant and have a positive impact on our customers and society as a whole. I am very excited to continue to face challenges and achieve success with a great team.</p>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-geo-alt"></i> Address</span>
+                        <h4>Tembilahan, Riau, Indonesia</h4>
+                        <p>MFrame is a company located in Tembilahan, Riau, Indonesia. We are a provider of website creation, development and maintenance services. Provide an unforgettable client experience for customers. Welcome to MFramr, a place that values ​​comfort and hospitality.</p>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-buildings"></i> Type of company</span>
+                        <h4>Information Technology</h4>
+                        <p>We are a provider of information technology-based solutions that bring innovation and digital transformation to your business. Through our services in IT, we help optimize operational processes, increase efficiency, and create intelligent solutions that respond to today's technological challenges. From custom software development to IT infrastructure management, we are committed to advancing your business into an accelerating digital age.</p>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-laptop"></i> Service specifications</span>
+                        <h4>UI Web Design</h4>
+                        <p>We a dedicated web design expert and dedicated to creating attractive and functional online experiences. With an in-depth knowledge of design principles, responsive layouts and the latest technologies, I can turn creative ideas into stunning web designs.</p>
+                    </li>
+                </ul>
             </div>
         </div>
 
         <div class="services" id="services">
-            <h2>Services.</h2>
-            <div class="container">
-                <div class="col">
-                    <h1 class="fas fa-desktop"></h1>
-                    <h2>Web Design</h2> <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore hic commodi reprehenderit debitis temporibus tempore?</p>
+            <h1>we provide the best services</h1>
+            <div class="row">
+                <div class="col col-1">
+                    <h2><i class="bi bi-laptop"></i></h2>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4 class="tombol">Read More</h4>
                 </div>
-                <div class="col">
-                    <h1 class="fas fa-mobile-android-alt"></h1>
-                    <h2>Responsive Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore hic commodi reprehenderit debitis temporibus tempore?</p>
+                <div class="col col-2">
+                    <h2><i class="bi bi-envelope-paper-heart"></i></h2>
+                    <h3>Web Invitation</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4 class="tombol">Read More</h4>
                 </div>
-                <div class="col">
-                    <h1 class="fas fa-plus"></h1>
-                    <h2>Update Web Design</h2> <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore hic commodi reprehenderit debitis temporibus sit amet tempore?</p>
+                <div class="col col-3">
+                    <h2><i class="bi bi-blockquote-left"></i></h2>
+                    <h3>Blog Design</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4 class="tombol">Read More</h4>
                 </div>
-            </div>
-        </div>
-
-        <div class="skill" id="skill">
-            <h1>Skills.</h1>
-            <div class="container">
-                <div class="col">
-                    <img src="assets/img/html5.png" alt="">
-                    <h2>HTML</h2>
-                </div>
-                <div class="col">
-                    <img src="assets/img/logo-2582747_640.png" alt="">
-                    <h2>CSS</h2>
-                </div>
-                <div class="col">
-                    <img src="assets/img/javascript-736400_640.png" alt="">
-                    <h2>JAVASCRIPT</h2>
-                </div>
-                <div class="col">
-                    <img src="assets/img/laptop.jpg" alt="">
-                    <h2>BOOTSTRAP</h2>
+                <div class="col col-4">
+                    <h2><i class="bi bi-building"></i></h2>
+                    <h3>Web Company Profile</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4 class="tombol">Read More</h4>
                 </div>
             </div>
         </div>
 
-        <div class="works" id="works">
-            <div class="container">
-                <h1>My Lates Works</h1>
-                <div class="row">
-                    <div class="card">
-                        <h2>1. My Company Profile</h2>
-                        <img src="assets/img/company-profile.png" alt="">
-                    </div>
-                    <div class="card">
-                        <h2>2. My first project</h2>
-                        <img src="assets/img/first-projek.png" alt="">
+        <div class="technology" id="technology">
+            <div class="row">
+                <div class="col col-1">
+                    <h1>The Technology we use</h1>
+                    <img src="assets/img/Capture.PNG" alt="">
+                </div>
+                <div class="col col-2">
+                    <div class="tech-row">
+                        <div class="tech-col">
+                            <img src="assets/img/html5.png" alt="">
+                            <h3>HTML 5</h3>
+                        </div>
+                        <div class="tech-col">
+                            <img src="assets/img/logo-2582747_640.png" alt="">
+                            <h3>CSS 3</h3>
+                        </div>
+                        <div class="tech-col">
+                            <img src="assets/img/javascript-736400_640.png" alt="">
+                            <h3>JAVASCRIPT</h3>
+                        </div>
+                        <div class="tech-col">
+                            <h2><i class="bi bi-bootstrap"></i></h2>
+                            <h3>BOOTSTRAP</h3>
+                        </div>
+                        <div class="tech-col">
+                            <img src="assets/img/react.avif" alt="">
+                            <h3 class="opacity">REACT.JS</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="contact" id="contact">
-            <h1>Contact.</h1>
-            <form action="">
-                <div class="form">
-                    <div>
-                        <label for="nama">Nama</label>
-                        <input type="text" id="nama">
-                    </div>
-    
-                    <div>
-                        <label for="email">Gmail</label>
-                        <input type="email" id="email">
-                    </div>
-    
-                    <div>
-                        <label for="pesanan">Pesan</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-    
-                    <div>
-                        <button>Kirim</button>
-                    </div>
-                    <div class="clear"></div>
+        <div class="provide" id="provide">
+            <h1>why choose us as partner ?</h1>
+            <div class="row">
+                <div class="col col-1">
+                    <h2><i class="bi bi-phone"></i></h2>
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
-            </form>
+                <div class="col col-3">
+                    <h2><i class="bi bi-segmented-nav"></i></h2>
+                    <h3>Usability</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="col col-4">
+                    <h2><i class="bi bi-browser-chrome"></i></h2>
+                    <h3>Support browser</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="col col-1">
+                    <h2><i class="bi bi-fast-forward"></i></h2>
+                    <h3>Fast Respon</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-2">
+                    <h2><i class="bi bi-question-circle"></i></h2>
+                    <h3>Free consult</h3>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
         </div>
 
-        <div class="footer">
-            <h1>website created with <i class="fas fa-heart"></i> by mgemamaulana04@gmail.com </h1>
+        <div class="faq" id="faq">
+            <h1>FAQ</h1>
+            <div class="row faqs">
+                <div class="question">
+                    <p>Why choose me as partner ?</p>
+                    <i class="bi bi-chevron-down questions" id="question"></i>
+                </div>
+                <div class="answer" id="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, ex exercitationem. Quaerat nisi ut tempora iusto explicabo. Maiores, consequatur. Explicabo laboriosam possimus blanditiis impedit nemo minus eius dolores porro vel.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit minima blanditiis ex, optio in eveniet quaerat!</p>
+                </div>
+            </div>
+            <div class="row faqs">
+                <div class="question">
+                    <p>What do I offer You ?</p>
+                    <i class="bi bi-chevron-down questions" id="question"></i>
+                </div>
+                <div class="answer" id="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, ex exercitationem. Quaerat nisi ut tempora iusto explicabo. Maiores, consequatur. Explicabo laboriosam possimus blanditiis impedit nemo minus eius dolores porro vel.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit minima blanditiis ex, optio in eveniet quaerat!</p>
+                </div>
+            </div>
+            <div class="row faqs">
+                <div class="question">
+                    <p>What do you get by being my client ?</p>
+                    <i class="bi bi-chevron-down questions" id="question"></i>
+                </div>
+                <div class="answer" id="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, ex exercitationem. Quaerat nisi ut tempora iusto explicabo. Maiores, consequatur. Explicabo laboriosam possimus blanditiis impedit nemo minus eius dolores porro vel.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit minima blanditiis ex, optio in eveniet quaerat!</p>
+                </div>
+            </div>
+            <div class="row faqs">
+                <div class="question">
+                    <p>What is the transaction system ?</p>
+                    <i class="bi bi-chevron-down questions" id="question"></i>
+                </div>
+                <div class="answer" id="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, ex exercitationem. Quaerat nisi ut tempora iusto explicabo. Maiores, consequatur. Explicabo laboriosam possimus blanditiis impedit nemo minus eius dolores porro vel.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit minima blanditiis ex, optio in eveniet quaerat!</p>
+                </div>
+            </div>
+            <div class="row faqs">
+                <div class="question">
+                    <p>What if the client has a complain ?</p>
+                    <i class="bi bi-chevron-down questions" id="question"></i>
+                </div>
+                <div class="answer" id="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, ex exercitationem. Quaerat nisi ut tempora iusto explicabo. Maiores, consequatur. Explicabo laboriosam possimus blanditiis impedit nemo minus eius dolores porro vel.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit minima blanditiis ex, optio in eveniet quaerat!</p>
+                </div>
+            </div>
         </div>
+
     </main>
+
+    <div class="footer" id="contact">
+        <div class="row">
+            <div class="col">
+                <h3>Social Media</h3>
+                <div class="info">
+                    <p><i class="bi bi-facebook"></i> Facebook</p>
+                    <div class="p">
+                        <p>Muhammad Maulana</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <p><i class="bi bi-twitter"></i> Twitter</p>
+                    <div class="p">
+                        <p>Muhammad Maulana</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <p><i class="bi bi-instagram"></i> Instagram</p>
+                    <div class="p">
+                        <p>i.b. maulana</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col center">
+                <h3>Channel</h3>
+                <div class="info">
+                    <p><i class="bi bi-youtube"></i> Youtube</p>
+                    <div class="p">
+                        <p>muhammad gema maulana</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <p><i class="bi bi-github"></i> github</p>
+                    <div class="p">
+                        <p>https://wpgema.github.io</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <p><i class="bi bi-envelope-at"></i> email</p>
+                    <div class="p">
+                        <p>mgemamaulana04@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contact Person</h3>
+                <div class="info">
+                    <p><i class="bi bi-whatsapp"></i> whatspapp</p>
+                    <div class="p">
+                        <p>+62 812 6153 0020 </p>
+                    </div>
+                </div>
+                <div class="info">
+                    <p><i class="bi bi-telephone-plus"></i> Number phone</p>
+                    <div class="p">
+                        <p>+62 812 6153 0020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
