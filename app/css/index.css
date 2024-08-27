@@ -17,7 +17,7 @@
     font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
-    text-transform: capitalize;
+    text-transform: capitalize !important;
     transition: all .2s linear;
     text-decoration: none;
     color: black
@@ -32,26 +32,8 @@ body{
     overflow-x: hidden;
 }
 
-.tombol{
-    display: inline-block;
-    font-size: 1.5rem;
-    padding: .7rem 2.5rem;
-    color: white;
-    text-decoration: none;
-    border-radius: 2px;
-    background-color: var(--colorTransparent1);
-}
-
-.tombol:hover{
-    letter-spacing: 2px;
-}
-
 .opacity{
     filter:grayscale()
-}
-
-.nav_link.nav_active{
-    color: var(--colorTransparent1);
 }
 
 .hero .col-1::after{
@@ -94,22 +76,6 @@ header h1{
     padding-left: 5rem;
     font-size: 2.5rem;
     font-weight: 600;
-}
-
-header h4{
-    display: none;
-}
-
-header nav{
-    padding-right: 5rem;
-    display: flex;
-}
-
-header nav a{
-    z-index: 2;
-    font-size: 1.7rem;
-    margin: 0 2rem;
-    font-weight: 500;
 }
 
 .hero{
@@ -540,43 +506,11 @@ header nav a{
     header{
         margin: 0 1rem;
         position: relative;
+        padding-right: 2rem;
     }
 
     header h1{
         padding-left: 1rem;
-    }
-
-    header h4{
-        line-height: 0;
-        display: block;
-        font-size: 4rem;
-        position: relative;
-        z-index: 2;
-    }
-
-    header .nav{
-        position: absolute;
-        width: 100%;
-        height: 80vh;
-        padding: 2rem 0;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        background-color: white;
-        right: 0;
-        top: -900rem;
-        transition: 2s ease-in-out;
-        z-index: 1;
-        box-shadow: var(--shadow2);
-    }
-
-    header h4{
-        transition: 20s ease-in-out;
-    }
-
-    .nav-toggle{
-        top: 0 !important;
-        transition: 2s ease-in-out;
     }
 
     .hero{
@@ -751,6 +685,7 @@ header nav a{
     }
 
     .footer .row .col .info .p{
+        text-indent: 10px;
         width: 70%;
     }
 
@@ -760,37 +695,11 @@ header nav a{
     header{
         margin: 0 1rem;
         position: relative;
+        padding-right: 2rem;
     }
 
     header h1{
         padding-left: 2rem;
-    }
-
-    header h4{
-        line-height: 0;
-        display: block;
-        font-size: 4rem;
-        position: relative;
-        z-index: 2;
-    }
-
-    header .nav{
-        position: absolute;
-        width: 100%;
-        height: 80vh;
-        padding: 2rem 0;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        background-color: white;
-        top: -900rem;
-        right: 0;
-        transition: 1.5s;
-        z-index: 1;
-    }
-
-    .nav-toggle{
-        top: 0 !important;
     }
 
     .hero{
