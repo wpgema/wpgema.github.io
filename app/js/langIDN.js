@@ -8,4 +8,4 @@ export const titleAboutIDN = [" Pendiri", " Alamat", " Jenis Perusahaan", " Jeni
 
 export const h4IndoLang = ["M. Gema Maulana", "Tembilahan, Riau, Indonesia", "Teknologi Informasi", "Pekerjaan Teknologi Informasi"];
 
-export const aIndoLang = ["Mulai", "Baca Lebih", "Baca Lebih", "Baca Lebih", "Baca Lebih", "Baca Lebih", "Baca Lebih"];
+export const aIndoLang = ["Mulai", "Lihat", "Lihat", "Lihat", "Lihat", "Lihat", "Lihat", "Lihat"];
