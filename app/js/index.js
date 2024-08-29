@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
     let imgHero = document.querySelectorAll(".img-laptop")[0];
-    imgHero.classList.remove("opacity-0");
+    imgHero.classList.add("opacity-0");
     imgHero.classList.add("upAnimate");
 });
 

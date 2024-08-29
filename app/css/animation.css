@@ -57,8 +57,23 @@
     }
 }
 
+@keyframes munculKeBawah {
+    0% {
+        transform: translateY(-80px) scale(0); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0) scale(1); 
+        opacity: 1; 
+    }
+}
+
 .upAnimate{
     animation: munculKeAtas 1s ease forwards; /* menjalankan animasi */
+}
+
+.downAnimate{
+    animation: munculKeBawah 1s ease forwards; /* menjalankan animasi */
 }
 
 .downgrade{

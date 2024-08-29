@@ -16,12 +16,12 @@ const reveal = (el, cls, point) => {
 
 const revealAbout = () => {
     let reveals = document.querySelectorAll(".reveal");
-    reveal(reveals, 'active', 180)
+    reveal(reveals, 'active', 160)
 }
 
 const revealCardServices = () => {
     let card = document.getElementById("container-services").children;
-    reveal(card, 'upAnimate', 180)
+    reveal(card, 'upAnimate', 160)
 }
 
 const revealCardTechnology = () => {
@@ -31,12 +31,12 @@ const revealCardTechnology = () => {
 
 const revealCardProvide = () => {
     let card = document.getElementById("container-provide").children;
-    reveal(card, 'upAnimate', 180)
+    reveal(card, 'upAnimate', 160)
 }
 
 const revealCardProvide2 = () => {
     let card = document.getElementById("container-provide2").children;
-    reveal(card, 'upAnimate', 180)
+    reveal(card, 'upAnimate', 160)
 }
 
 const revealCardAnswer = () => {
@@ -49,7 +49,20 @@ const revealCardIMG = () => {
     reveal(card, 'upAnimate', 140)
 }
 
+const revealTitle = () => {
+    let title = document.querySelectorAll(".title");
+    reveal(title, 'upAnimate', 140)
+}
+
+const revealSpan = () => {
+    let about = document.getElementById("about");
+    let span = about.querySelectorAll("span");
+    reveal(span, 'downAnimate', 160)
+}
+
+window.addEventListener("scroll", revealTitle)
 window.addEventListener("scroll", revealAbout)
+window.addEventListener("scroll", revealSpan)
 window.addEventListener("scroll", revealCardServices)
 window.addEventListener("scroll", revealCardTechnology)
 window.addEventListener("scroll", revealCardProvide)
