@@ -2,7 +2,7 @@ export const engLang = ["Welcome to MFrame, a service focused on information tec
 
 export const h1EngLang = ["MFrame", "we create a website for your business", "Get to know us further", "We Provide The Best Services", "The Technology We Use", "Why Choose Us As Partner ?", "FAQ"];
 
-export const h3EngLang = ["Web Application", "Web Company Profile", "web blog", "Web Invitation", "Logo Design", "Microsoft Office Task", "Flowchart Design", "HTML", "CSS", "JAVASCRIPT", "PHP", "DBMS MYSQL", "CANVA", "Microsoft WORD", "Microsoft POWER POINT", "Microsoft Visio", "Responsive Design", "Usability", "Support Browser", "Fast Respon", "free consult", "Social Media", "Channel", "Contact Person"];
+export const h3EngLang = ["Web Application", "Web Company Profile", "web blog", "Web Invitation", "Logo Design", "Microsoft Office Task", "Flowchart Design", "HTML", "CSS", "JAVASCRIPT", "PHP", "DBMS MYSQL", "CANVA", "Microsoft Excel", "Microsoft Word", "Microsoft Power Point", "Microsoft Visio", "Responsive Design", "Usability", "Support Browser", "Fast Respon", "free consult", "Social Media", "Channel", "Contact Person"];
 
 export const titleAboutENG = [" Ceo Company", " Address", " Type of company", " Service Specifications"];
 

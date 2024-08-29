@@ -79,6 +79,7 @@ const containerServices = document.getElementById('container-services');
 if(containerServices){
     let subContainer = Array.from(containerServices.children);
     subContainer.forEach(el => {
+        el.classList.add("display-flex-center-beetwen");
         el.addEventListener("mouseenter", ()=>{
             el.classList.add("transform");
         })

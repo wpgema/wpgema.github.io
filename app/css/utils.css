@@ -1,5 +1,5 @@
-.fc-purple2{
-    color: var(--colorTransparent2)
+.fc-purple{
+    color: var(--colorTransparent1)
 }
 
 .fs-5{
@@ -45,6 +45,26 @@
     display: none;
 }
 
+.display-flex-center-beetwen{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 .hidden{
     display: none;
+}
+
+/* fixed */
+.fixed-right{
+    position: fixed;
+    top: 2rem;
+    right: 10rem;
+    z-index: 1;
+}
+
+@media (max-width: 992px) {
+    .fixed-right{
+        right: 2rem
+    }
 }

@@ -2,7 +2,7 @@ export const indoLang = ["Selamat datang di MFrame, sebuah layanan yang berfokus
 
 export const h1IndoLang = ["MFrame", "kami membuat situs web untuk bisnis Anda", "Kenali kami lebih jauh", "kami menyediakan layanan terbaik", "Teknologi yang kami gunakan", "mengapa memilih kami sebagai mitra?", "FAQ"];
 
-export const h3IndoLang = ["Aplikasi Web", "web profil perusahaan", "web blog", "Web undangan", "Desain Logo", "Pekerjaan Microsoft Office", "Desain Bagan Data", "HTML", "CSS", "JAVASCRIPT", "PHP", "DBMS MYSQL", "CANVA", "Microsoft WORD", "Microsoft POWER POINT", "Microsoft Visio", "Desain Responsif", "Kegunaan", "Dukungan Browser", "tanggap respon", "bebas bertanya", "Sosial Media", "Saluran", "Kontak Pribadi"];
+export const h3IndoLang = ["Aplikasi Web", "web profil perusahaan", "web blog", "Web undangan", "Desain Logo", "Pekerjaan Microsoft Office", "Desain Bagan Data", "HTML", "CSS", "JAVASCRIPT", "PHP", "DBMS MYSQL", "CANVA", "Microsoft Excel", "Microsoft Word", "Microsoft Power Point", "Microsoft Visio", "Desain Responsif", "Kegunaan", "Dukungan Browser", "tanggap respon", "bebas bertanya", "Sosial Media", "Saluran", "Kontak Pribadi"];
 
 export const titleAboutIDN = [" Pendiri", " Alamat", " Jenis Perusahaan", " Jenis Layanan"];
 
