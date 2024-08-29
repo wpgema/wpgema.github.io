@@ -46,6 +46,21 @@
     }
 }
 
+@keyframes munculKeAtas {
+    0% {
+        transform: translateY(100px) scale(0); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0) scale(1); 
+        opacity: 1; 
+    }
+}
+
+.upAnimate{
+    animation: munculKeAtas 1s ease forwards; /* menjalankan animasi */
+}
+
 .downgrade{
     animation: downgrade 3s ease; 
 }

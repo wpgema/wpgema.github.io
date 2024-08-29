@@ -42,7 +42,12 @@
 
 /* tampilan */
 .display-none{
-    display: none;
+    display: none !important;
+}
+
+.opacity-0{
+    opacity: 0;
+    transition: 1s ease-in-out;
 }
 
 .display-flex-center-beetwen{
