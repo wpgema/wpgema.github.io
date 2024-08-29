@@ -68,26 +68,39 @@
     }
 }
 
+@keyframes loadLang {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+.loadChangeLang{
+    animation: loadLang .5s ease forwards; 
+}
+
 .upAnimate{
-    animation: munculKeAtas 1s ease forwards; /* menjalankan animasi */
+    animation: munculKeAtas .8s ease forwards; 
 }
 
 .downAnimate{
-    animation: munculKeBawah 1s ease forwards; /* menjalankan animasi */
+    animation: munculKeBawah .8s ease forwards;
 }
 
 .downgrade{
-    animation: downgrade 3s ease; 
+    animation: downgrade .8s ease forwards; 
 }
 
 .leftgrade{
-    animation: leftgrade 3s ease; 
+    animation: leftgrade .8s ease forwards; 
 }
 
 .rightgrade{
-    animation: rightgrade 3s ease; 
+    animation: rightgrade .8s ease forwards; 
 }
 
 .upgrade{
-    animation: upgrade 3s ease; 
+    animation: upgrade .8s ease forwards; 
 }

@@ -21,7 +21,7 @@ const revealAbout = () => {
 
 const revealCardServices = () => {
     let card = document.getElementById("container-services").children;
-    reveal(card, 'upAnimate', 160)
+    reveal(card, 'upAnimate', 150)
 }
 
 const revealCardTechnology = () => {
@@ -31,12 +31,12 @@ const revealCardTechnology = () => {
 
 const revealCardProvide = () => {
     let card = document.getElementById("container-provide").children;
-    reveal(card, 'upAnimate', 160)
+    reveal(card, 'upAnimate', 150)
 }
 
 const revealCardProvide2 = () => {
     let card = document.getElementById("container-provide2").children;
-    reveal(card, 'upAnimate', 160)
+    reveal(card, 'upAnimate', 150)
 }
 
 const revealCardAnswer = () => {
@@ -57,7 +57,7 @@ const revealTitle = () => {
 const revealSpan = () => {
     let about = document.getElementById("about");
     let span = about.querySelectorAll("span");
-    reveal(span, 'downAnimate', 160)
+    reveal(span, 'downAnimate', 150)
 }
 
 window.addEventListener("scroll", revealTitle)
