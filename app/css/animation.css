@@ -104,3 +104,17 @@
 .upgrade{
     animation: upgrade .8s ease forwards; 
 }
+
+.reveal{
+    position: relative;
+    z-index: -5;
+    transform: translateY(1.8rem) !important;
+    opacity: 0;
+    transition: all 1.5s ease forwards;
+}
+
+.reveal.active{
+    z-index: 5;
+    transform: translateY(0rem) !important;
+    opacity: 1;
+}

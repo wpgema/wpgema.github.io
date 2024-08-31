@@ -20,10 +20,6 @@ body{
     overflow-x: hidden;
 }
 
-.opacity{
-    filter:grayscale()
-}
-
 .hero .col-1::after{
     position: absolute;
     content: '';
@@ -34,7 +30,6 @@ body{
     z-index: -1;
     bottom: -7rem;
     left: 16rem;
-    animation: fly 4s infinite;
 }
 
 .hero .col-1::before{
@@ -47,7 +42,6 @@ body{
     z-index: -1;
     top: -3rem;
     right: 3rem;
-    animation: fly 10s infinite;
 }
 
 header{
@@ -86,7 +80,7 @@ header h1{
 }
 
 .hero .row .col-1 h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 400;
     line-height: 6.5rem;
 }
@@ -111,6 +105,8 @@ header h1{
     width: 100%;
 }
 
+/* about */
+
 .about{
     padding: 5rem 10rem;
     display: grid;
@@ -120,7 +116,7 @@ header h1{
 .about h1{
     padding: 0 0 5rem;
     text-transform: capitalize;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
     text-align: center;
 }
@@ -219,6 +215,11 @@ header h1{
     left: calc(-.9rem + -30px);
 }
 
+.about .row .col-2 p{
+    font-size: 1.3rem;
+}
+
+
 .technology{
     padding: 5rem 10rem 0;
 }
@@ -229,7 +230,7 @@ header h1{
 
 .technology h1{
     text-transform: capitalize;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
     margin-bottom: 2.5rem;
     text-align: center;
@@ -299,19 +300,17 @@ header h1{
     margin-top: .3rem;
 }
 
+/* services */
+
 .services{
     margin: 0 5rem;
     padding:  5rem 0;
 }
 
-.about .row .col-2 p{
-    font-size: 1.3rem;
-}
-
 .services h1{
     padding: 0 0 2rem;
     text-transform: capitalize;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
     text-align: center;
 }
@@ -348,6 +347,8 @@ header h1{
     font-size: 1.4rem;
 }
 
+/* provide */
+
 .provide{
     padding:  5rem 5rem 0;
 }
@@ -355,7 +356,7 @@ header h1{
 .provide h1{
     padding: 0 5rem 2rem;
     text-transform: capitalize;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
     text-align: center;
 }
@@ -393,6 +394,8 @@ header h1{
     font-size: 1.4rem;
 }
 
+/* faq */
+
 .faq{
     padding: 5rem 10rem 5rem;
 }
@@ -400,7 +403,7 @@ header h1{
 .faq h1{
     padding: 0 5rem 2rem;
     text-transform: capitalize;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
     text-align: center;
 }
@@ -443,6 +446,8 @@ header h1{
     transition: .5s ease-in;
     animation: fade .5s ease-in;
 }
+
+/* footer */
 
 .footer{
     padding: 5rem 10rem;
@@ -489,6 +494,7 @@ header h1{
     text-transform: none;
 }
 
+/* ukuran Mobile */
 
 @media (max-width: 552px){
     header{
@@ -519,7 +525,7 @@ header h1{
     }
 
     .hero .row .col-1 h1{
-        font-size: 4rem;
+        font-size: 3.8rem;
         line-height: 4.5rem;
     }
 
@@ -528,7 +534,7 @@ header h1{
     }
     
     .about h1{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .about .container ul li{
@@ -581,7 +587,7 @@ header h1{
     }
 
     .services h1{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .services .row{
@@ -605,7 +611,7 @@ header h1{
     }
     
     .technology h1{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .technology .row .col{
@@ -619,7 +625,7 @@ header h1{
     }
 
     .provide h1{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .provide .row{
@@ -639,7 +645,7 @@ header h1{
     }
 
     .faq h1{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .faq .row{
@@ -678,6 +684,8 @@ header h1{
     }
 
 }
+
+/* ukuran Tablet */
 
 @media (min-width: 553px) and (max-width: 992px) {
     header{

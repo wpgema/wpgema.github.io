@@ -41,3 +41,8 @@ faqs.forEach(faq => {
         faq.classList.toggle('active')
     })
 })
+
+import { getDataYoutube, getDataVideo} from "./getApiYoutube.js";
+
+getDataYoutube('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyBEHWEJeM559bL3HyjKZwjtC06PGqBlqtQ&part=snippet,statistics&id=UCCw2AZCpuNKZQnU9447iCNQ');
+getDataVideo('https://www.googleapis.com/youtube/v3/search?key=AIzaSyBEHWEJeM559bL3HyjKZwjtC06PGqBlqtQ&part=snippet&channelId=UCCw2AZCpuNKZQnU9447iCNQ&maxResults=1&order=date');
