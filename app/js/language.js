@@ -9,6 +9,11 @@ const h4 = Array.from(document.querySelectorAll("h4"));
 const h3 = Array.from(document.querySelectorAll("h3"));
 const a = Array.from(document.querySelectorAll("a"));
 
+
+class translate{
+    
+}
+
 export const translateToIndonesia = () =>{
     for(let i = 0; i < indoLang.length; i++){
         paragraf[i].innerText = indoLang[i]
