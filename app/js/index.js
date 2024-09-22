@@ -41,5 +41,3 @@ faqs.forEach(faq => {
         faq.classList.toggle('active')
     })
 })
-
-import { getDataYoutube, getDataVideo} from "./getApiYoutube.js";
