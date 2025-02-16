@@ -219,87 +219,6 @@ header h1{
     font-size: 1.3rem;
 }
 
-
-.technology{
-    padding: 5rem 10rem 0;
-}
-
-.technology .row{
-    display: flex;
-}
-
-.technology h1{
-    text-transform: capitalize;
-    font-size: 3rem;
-    font-weight: 400;
-    margin-bottom: 2.5rem;
-    text-align: center;
-}
-
-.technology .col{
-    width: 50%;
-}
-
-.technology .col-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.technology .col img{
-    width: 100%;
-    margin: 0 auto;
-}
-
-.technology .col .tech-row{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 100px);
-    gap: 2rem;
-    text-align: left;
-    margin-bottom: 3rem;
-    padding: .5rem 0;
-}
-
-.technology .col .tech-row .tech-col{
-    width: 100px;
-    padding: 1rem 1rem;
-    border-radius: 3px;
-    text-align: left;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 4px 5px rgba(56, 0, 185, 0.1);
-}
-
-.technology .col .tech-row .tech-col h2{
-    font-size: 3.5rem;
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    background-image: linear-gradient(to right bottom, var(--colorTransparent1), rgba(56, 0, 185, 0.5));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: var(--shadow);
-}
-
-.technology .col .tech-row .tech-col img{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    box-shadow: var(--shadow2);
-}
-
-.technology .col .tech-row .tech-col h2 i{
-    color: white;
-}
-
-.technology .col .tech-row .tech-col h3{
-    color: var(--colorParagraf);
-    margin-top: .3rem;
-}
-
 /* services */
 
 .services{
@@ -345,6 +264,49 @@ header h1{
 
 .services .row .col h4{
     font-size: 1.4rem;
+}
+
+/* project-complete */
+
+.project-complete{
+    margin: 0 5rem;
+    padding:  5rem 0;
+}
+
+.project-complete h1{
+    padding: 0 0 2rem;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.project-complete .row{
+    display: grid;
+    grid-template-columns: 220px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project-complete .row .col{
+    background-color: white;
+    padding: 2rem 3rem;
+    box-shadow:  5px 5px 10px var(--colorTransparent3), -5px 5px 10px var(--colorTransparent3);
+    border-radius: 2px;
+    text-align: left;
+}
+
+.project-complete .row .col h2{
+    font-size: 5rem;
+}
+
+.project-complete .row .col h3{
+    font-size: 1.5rem;
+}
+
+.project-complete .row .col h1{
+    padding-bottom: 0 !important;
+    text-align: left !important;
 }
 
 /* provide */
@@ -601,24 +563,6 @@ header h1{
         padding: 1.5rem 1rem;
     }
 
-    .technology{
-        padding: 0 1rem;
-    }
-    
-    .technology .row{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .technology h1{
-        font-size: 2.3rem;
-    }
-
-    .technology .row .col{
-        width: 100%;
-        margin-top: 2.5rem;
-    }
-
     .provide{
         margin: 0 1rem;
         padding:  5rem 0 0;
@@ -782,29 +726,6 @@ header h1{
 
     .services .row .col{
         padding: 1.5rem 1.5rem;
-    }
-
-    .technology{
-        padding: 0 2rem;
-    }
-    
-    .technology .row{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .technology h1{
-        font-size: 2.5rem;
-    }
-
-    .technology .row .col{
-        width: 100%;
-        margin-top: 2.5rem;
-    }
-
-    .technology .row .col.col-2{
-        width: 90%;
-        margin: 2rem auto;
     }
 
     .provide{
