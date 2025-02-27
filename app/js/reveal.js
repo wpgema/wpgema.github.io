@@ -46,7 +46,7 @@ const revealCardAnswer = () => {
 
 const revealCardIMG = () => {
     let card = document.querySelectorAll(".img-laptop");
-    reveal(card, 'upAnimate', 140)
+    reveal(card, 'upAnimate', 100)
 }
 
 const revealTitle = () => {
