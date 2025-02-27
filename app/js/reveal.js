@@ -24,9 +24,9 @@ const revealCardServices = () => {
     reveal(card, 'upAnimate', 150)
 }
 
-const revealCardTechnology = () => {
-    let card = document.getElementById("container-technology").children;
-    reveal(card, 'upAnimate', 140)
+const revealCardProjectComplete = () => {
+    let card = document.getElementById("container-project-complete").children;
+    reveal(card, 'upAnimate', 150)
 }
 
 const revealCardProvide = () => {
@@ -64,7 +64,7 @@ window.addEventListener("scroll", revealTitle)
 window.addEventListener("scroll", revealAbout)
 window.addEventListener("scroll", revealSpan)
 window.addEventListener("scroll", revealCardServices)
-window.addEventListener("scroll", revealCardTechnology)
+window.addEventListener("scroll", revealCardProjectComplete)
 window.addEventListener("scroll", revealCardProvide)
 window.addEventListener("scroll", revealCardProvide2)
 window.addEventListener("scroll", revealCardAnswer)
