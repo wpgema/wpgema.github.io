@@ -106,7 +106,7 @@ header h1{
 }
 
 .hero .row .col-2 img{
-    width: 250px;
+    width: 500px;
 }
 
 /* about */
@@ -496,7 +496,7 @@ header h1{
     }
 
     .hero .row .col-2 img{
-        width: 60%;
+        width: 100%;
     }
 
     .about{
